@@ -1,4 +1,4 @@
-library;
+library api_manager_plus;
 
 export 'src/core/api_headers.dart';
 export 'src/core/api_logger.dart';

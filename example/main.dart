@@ -26,8 +26,8 @@ void main() async {
     // final file = File('path/to/file.png');
     // final uploadData = await SafeApiCall.call(() =>
     //   ApiRequestHelper.multipartUpload('https://httpbin.org/post', file));
-    // print('Multipart Response: \$uploadData');
+    // print('Multipart Response: \n$uploadData');
   } catch (e) {
-    print('Error: \$e');
+    print('Error: $e');
   }
 }

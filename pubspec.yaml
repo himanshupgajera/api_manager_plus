@@ -1,16 +1,21 @@
 name: api_manager_plus
-description: A starting point for Dart libraries or applications.
+description: A Flutter-only API manager package with safe calls, request helpers, and response handlers.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+
+homepage: https://github.com/himanshupgajera/api_manager_plus
+repository: https://github.com/himanshupgajera/api_manager_plus
 
 environment:
-  sdk: ^3.8.1
+  sdk: '>=2.18.0 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
+  flutter:
+    sdk: flutter
   http: ^1.2.1
   connectivity_plus: ^5.0.2
 
 dev_dependencies:
-  lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
   test: ^1.24.0
+  lints: ^3.0.0
