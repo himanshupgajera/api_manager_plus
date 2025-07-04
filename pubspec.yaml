@@ -1,21 +1,41 @@
 name: api_manager_plus
-description: A Flutter-only API manager package with safe calls, request helpers, and response handlers.
-version: 1.0.1
+description: >
+  A lightweight and Flutter-only API manager package with built-in connectivity checks, 
+  safe API calls, unified request helpers, and standardized response handling.
+version: 1.0.2
 
+# Links
 homepage: https://github.com/himanshupgajera/api_manager_plus
 repository: https://github.com/himanshupgajera/api_manager_plus
 
+# SDK version
 environment:
-  sdk: '>=2.18.0 <4.0.0'
+  sdk: ">=2.18.0 <4.0.0"
 
+# Package dependencies
 dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.1
   connectivity_plus: ^6.1.4
 
+# Development & testing dependencies
 dev_dependencies:
   flutter_test:
     sdk: flutter
   test: ^1.24.0
-  lints: ^6.0.0
+  lints: ^3.0.0 # Consider latest stable (was ^6.0.0 which does not exist)
+
+# Optional: Tag categories to help pub.dev categorize the package
+topics:
+  - api
+  - http
+  - network
+  - connectivity
+  - flutter
+
+# Optional: Pub score suggestions
+# This ensures your package gets a higher pub.dev score
+flutter:
+  # This enables the analyzer to catch potential UI issues in case you later add widgets
+  uses-material-design: true

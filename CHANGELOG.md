@@ -2,7 +2,7 @@
 
 - Initial version.
 
-## [1.0.1] - 2025-07-04
+## [1.0.1]
 ### Added
 - SafeApiCall class with integrated internet connectivity check.
 - Internal NoInternetException handling.
@@ -10,3 +10,8 @@
 
 ### Fixed
 - Branch push issue corrected.
+
+## [1.0.2]
+- Added full Dart documentation to all core classes
+- Improved API logging formatting
+- Cleaned up pubspec metadata
