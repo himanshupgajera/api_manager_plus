@@ -1,6 +1,6 @@
 name: api_manager_plus
 description: A Flutter-only API manager package with safe calls, request helpers, and response handlers.
-version: 1.0.0
+version: 1.0.1
 
 homepage: https://github.com/himanshupgajera/api_manager_plus
 repository: https://github.com/himanshupgajera/api_manager_plus
